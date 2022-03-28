@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Híbrida Consultoras</title>
+    
+</head>
+
+<body>
+    <!-- abre header -->
+    <header>
+        <!-- abre nav -->
+        <nav>
+             <a class="header_logo" href="index.html">
+                 <img src="img/logo_peq.png" alt="Logo de Híbrida Consultoras" width="10%">
+            </a>
+             <ul class="encabezado">
+                <li class="botonera">
+                    <a href="./secciones/nosotros.html">¿Quiénes somos?</a>
+                </li>
+                <li class="botonera">
+                    <a href="./secciones/servicios.html">¿Qué hacemos?</a>
+                </li>
+                <li class="botonera">
+                    <a href="./secciones/metodologia.html">¿Cómo lo hacemos?</a>
+                </li>
+                <li class="botonera">
+                    <a href="./secciones/contacto.html">Contacto</a>
+                </li>
+             </ul>
+            <img  class="hero" src="img/hero_color.png" alt="Híbrida service design" width="100%"> 
+        </nav>
+    <!-- cierra nav -->
+    </header>
+    <!-- cierra header -->
+    <!-- abre main -->
+    <main class="contenidos" id="main">
+        <section> 
+            <h1 class="h1_solo">Híbrida</h1>
+             <article class="h1_art">  
+             <article class="titulos">¿Quiénes somos?</article>
+                <p class="parrafos">Somos un <span class="textBold"> equipo multiudisciplinario de profesionales </span> especializadas en diferentes perfiles acádemicos como antropología, diseño industrial, comunicación, bellas artes y diseño. Esta hibridación nos permite tener diferentes perspectivas y visiones más integrales al momento de diseñar y desarrollar las investigaciones de personas usuarias.</p>
+                <p class="parrafos">Contamos <span class="textBold"> más de 15 años de experiencia </span> en investigación, comunicación y diseño centrado en el usuario. Hemos trabajado en proyectos relacionados con educación, servicios públicos, derechos humanos, ambiente, salud, tecnología e innovación con organizaciones no gubernamentales, empresa privada e instituciones estatales a nivel nacional e internacional.</p>
+              <article class="titulos">¿Qué hacemos?</article>
+                 <p class="parrafos">Desarrollamos <span class="textBold"> procesos de investigación y diseño </span> enfocado en Service Design y Life Centered Design. Nos centramos en los principios de la <span class="textBold"> etnografía y el diseño centrado en los humanos. </span></p> 
+                 <p class="parrafos">Para nosotras lo principal es tener una comprensión de las motivaciones, necesidades e intereses de las personas.
+                 Creemos en la excelencia, la co-creación, la empatía, la curiosidad, la agilidad y el pensamiento flexible al momento de trabajar, estos son nuestros valores y guías en cada una de las etapas de la investigación.</p>
+              <br>
+              <article class="titulos">¿Cómo lo hacemos?</article>
+                <p>Contamos con metodologías diversas que hibridamos y combinamos, <span class="textBold"> metodologías y técnicas, herramientas y métodos </span>; vamos de lo análogo a lo digital, tomamos en cuenta lo cualitativo en integración con lo cualitativo; y además aplicamos investigación generativa e investigación evaluativa.</p>
+                <img class="centrado" src="./img/newsletter.gif" alt="Gif del newsletter" width="40%">    
+                 </article>
+        </section>   
+        <!-- inicia form -->
+        <section class="section">    
+            <h2 class="h2_solo">Escribinos, nos interesa conocer sobre tu proyecto</h2> 
+             <article class="h2_art">   
+                <form class="form_h2" action="envio.php" method="post" id="contacto">
+                    <fieldset>
+                        <legend class="titulos_cajas">Datos Personales</legend>
+                        <label for="nombre">Nombre y apellido</label>
+                        <input type="text" placeholder="Nombre Apellido" name="nombre" id="nombre">
+                        <legend>Email</legend>
+                        <label for="email"></label>
+                        <input type="email" placeholder="mail@mail.com" name="email" id="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="titulos_cajas">Datos del servicio</legend>
+                        <label for="taller">Taller</label> 
+                        <input type="checkbox" name="Taller" id="Taller" value="taller"> 
+                        <label for="charla">Charla</label> 
+                        <input type="checkbox" name="charla" id="charla" value="charla">
+                        <label for="investigacion">Investigación</label> 
+                        <input type="checkbox" name="cinvestigacion" id="investigacion" value="invstigacion">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="titulos_cajas">Tipo de actividad</legend>
+                        <label for="actividad">Remota</label>
+                        <input type="radio" name="actividad" id="remota" value="remota">
+                        <label for="actividad">Presencial</label>
+                        <input type="radio" name="actividad" id="presencial" value="presencial">
+                        <select name="region" id="region">
+                            <option value="gam">Gran Área Metropolitana</option>
+                            <option value="fuera">Fuera de la GAM</option>
+                            <option value="extranjero">Extranjero</option>
+                        </select>
+                    </fieldset>
+                    <label for="mensaje">Conversanos un poco más sobre tu actividad o investigación</label> 
+                    <textarea name="mensaje" id="mensaje" cols="100" rows="5"></textarea>
+                    <input type="reset" value="Cancelar">
+                    <input type="submit" value="Enviar">
+                </form>
+            </article>  
+        </section>      
+        <!-- termina form -->    
+        <!-- abre mapa -->
+        <h3 class="h2_solo"> En dónde estamos </h3>  
+            <section>   
+            <article class="h3_art">
+                <p class="titulos"></p>
+                <iframe class="titulos" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1055.9899458753612!2d-84.05758415164529!3d9.95657067128935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0e53908155f2f%3A0x4d461fedc3a16452!2sCasa%20bella!5e0!3m2!1ses!2scr!4v1645986207193!5m2!1ses!2scr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </article>
+        
+         <!-- cierra mapa -->
+        </section>
+    </main> 
+    <!-- cierra main -->
+ 
+    <!-- inicia footer -->
+    <footer>
+        <h4 class="h4_art">Encontranos en</h4> 
+         <a class="h4_art" href="http://linkedin.com" target="_blank">
+            <img src="img/logo_linked.png" alt="Logo Linkedin" width="5%">
+         </a>
+         <a class="h4_art" href="https://www.instagram.com/hibrida_consultoras/" target="_blank">
+            <img src="img/logo_inst.png" alt="Logo Instagram" width="5%">
+         </a>
+         <a class="h4_art" href="http://twitter.com" target="_blank">
+            <img src="img/logo_twitter.png" alt="Logo Twitter" width="5%">
+         </a>    
+    </footer>
+    <!-- cierra footer -->   
+</body>
+</html>
