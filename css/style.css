@@ -1,0 +1,430 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*selectores de etiqueta*/
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-image: url(../img/background_squares.jpg);
+    background-attachment: fixed;
+}
+
+nav ul li{
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+    nav ul li a{
+        text-decoration: none;
+        color:#ffffff
+    }
+
+h1, h2{
+    color: #6fbdb0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+h1{
+    height: auto;
+    margin: 1rem auto; 
+    padding: 1rem auto; 
+    background-color: #ffffff;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+    h1 legend{
+        width: 97%;
+        font-size: 2.2rem;
+        font-weight: 600;
+        text-align: center;
+        text-transform: uppercase;
+        margin: 2rem auto; 
+        padding: 2rem 3rem;    
+        box-sizing: border-box;
+    }
+
+h2{
+    font-size: 1.7rem;
+    font-weight: 600;
+    height: auto;
+    margin: 1rem auto; 
+    padding: 1rem auto; 
+    background-color: #ffffff;
+}
+
+    h2 legend{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+
+        h2 form legend{
+            color: #434343;
+            font-size: 1.4rem;
+            font-weight: 400;
+        }
+        
+h3{
+    background-color: #ffffff;   
+    height: auto;
+    margin: 1rem auto; 
+    padding: 1rem auto; 
+}    
+    h3 section article p{
+        color: #6fbdb0;
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+
+h4{
+    font-size: 1.6rem;
+    color: #6fbdb0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+    p{
+        color: #7c8180;
+        font-size: 1.5rem;
+        font-weight: 300;
+        background-color: #ffffff;
+    }
+
+form label{
+    color: #7c8180;
+}
+
+fieldset{
+    background-color: rgba(174, 222, 215, 0.25);
+}
+
+footer{
+    background-color: #528e86;
+}
+   
+    footer h3{
+    text-decoration: none;
+}
+        
+
+/*selectores de clase*/
+
+.textItalic{
+font-style: italic;
+}
+
+.textTeal{
+    color: #528e52;
+}
+
+.textBold{
+font-weight: 600;
+}
+
+.textCenter{
+    text-align: center;
+}
+    
+.textRight{
+     text-align: right;
+}
+    
+.textLeft{
+    text-align: left;
+}
+
+.section{
+    background-color: #ffffff;
+}
+
+.h1_solo{
+    width: 97%;
+    font-size: 2.2rem;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 2rem auto; 
+    padding: 2rem 3rem;    
+    box-sizing: border-box;
+    }
+
+.h2_solo{
+    color: #6fbdb0;
+    width: 97%;
+    font-size: 1.7rem;
+    font-weight: 600;
+    height: auto;
+    margin: 1rem auto; 
+    padding: 1rem auto; 
+    background-color: #ffffff;
+    box-sizing: border-box;
+}
+
+/* Box Modeling */
+.encabezado{
+    display: inline-block;
+    margin-left: 13rem;
+}
+
+.botonera{
+    display: inline-block;
+    list-style: none;
+    margin-right: 3rem;
+    margin-top: -8rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+
+.header_logo{
+    width: 97%;
+    height: auto;
+    margin: 5rem 3rem; 
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    }    
+
+.hero{
+    width: 98%;
+    height: auto;
+    margin: 2rem auto; 
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+}
+
+.titulos{
+    height: auto;
+    margin: 1rem auto; 
+    padding: 1rem auto; 
+    background-color: #ffffff;
+}
+
+.parrafos_1{
+    padding-top: 2rem;
+    background-color: #ffffff;
+}   
+
+.parrafos_2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #ffffff;
+}   
+
+.h1_art{
+    width: 97%;
+    height: auto;
+    margin: 2rem auto; 
+    padding: 2rem 3rem;
+    box-sizing: border-box;
+    color: #6fbdb0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.tabla_1{ 
+    color: #434343;
+    font-weight: 200;
+    margin: 1rem 2rem; 
+    padding: 1rem 2rem;
+    box-sizing: border-box;  
+}    
+
+.tabla_borde{
+    margin: 2rem 
+}    
+
+.h2_art{
+    width: 97%;
+    height: auto;
+    margin: 1rem auto; 
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    color: #6fbdb0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}  
+
+.titulos_cajas{
+    height: auto;
+    margin: 1rem; 
+    padding: 1rem; 
+}
+
+.form_h2{
+    color: #434343;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.h3_art{
+    width: 97%;
+    height: auto;
+    margin: 2rem auto; 
+    padding: 2rem 4rem;
+    box-sizing: border-box;
+    color: #6fbdb0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.h4_art{
+    width: 97%;
+    height: auto;
+    margin: 2rem auto; 
+    padding: 2rem 1rem;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+.centrado{
+    margin-left: 35rem;
+}
+
+
+/* Grid*/ 
+/* Definimos contenedores */
+
+/*
+.grid{
+    width: 97%;
+    display: grid;
+}   
+
+/* Definimos templates por filas y columnas*/
+/*
+.grid-template-columns-row{
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}
+
+/* Definimos templates por areas*/
+/*
+.template-areas{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(9, 1fr);
+}    
+
+/*había creado más contenedores,pero se me destrozó todo, entonces usé los mismos para hacer
+y seguir los mismos pasos de la profe, pero igual no me funciono*/
+/*
+.contenedor{
+    display: grid;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat auto auto auto auto;
+    grid grid-template-areas: "menu menu menu"
+    "contenidos contenidos contenidos"
+    "footer footer footer";
+}
+
+#mainNav{
+    grid-area: menu;
+}
+
+/* estos comandos no me cargan, ya está el div y las class en el html
+i los ID también*/
+/*
+#main{
+    grid-area: contenidos;
+}
+
+#pie{
+    grid-area: footer;     
+}
+
+
+
+/* Los primeros intentos de grid, tampoco me funcionó; 
+luego cambie las clases e hice el intento que está arriba 
+
+#botonera{
+    grid-area: nav;   
+} 
+
+#header{
+    grid-area: header;   
+} 
+
+#cuerpo{
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;    
+}
+
+#contacto{
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;    
+}
+
+#mapa{
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;    
+}
+
+#footer{
+    grid-template-columns: repeat (2, 1fr);
+    grid-template-rows: 1fr;    
+}
+*/
+
+/* Agregando animaciones*/
+
+/* animation header*/
+header{
+    height: 120vh;
+    animation-name: animateHeader;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-timing-function: ease;
+    animation-duration: 9s;
+}
+
+@keyframes animateHeader{
+    0%{background: url(../img/hero_color.png);}
+    50%{background: url(../img/cont-01.png);}
+    100%{background: url(../img/cont-02.png);}
+}
+
+.imgAnimat{
+    display: inline-table;
+    border: #528e86;
+    padding: 2em;
+    align: center;
+}
+
+.botoneraAnimat{
+    font-size: 2rem;
+    text-decoration: none;
+    background-image: linear-gradient(to right, grey, black);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+.botonera ol li a:hover{
+    color: black;
+    font-weight: 600;
+    background-size: 2px;
+}
+
+.class{}
